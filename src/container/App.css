@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Star Jedi Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Star Jedi Regular'), url('Starjedi.woff') format('woff');
+    }
+
+
+.title {
+	font-family: 'Star Jedi Regular';
+	color:  #FFE81F;
+	font-size: 3rem;
+}

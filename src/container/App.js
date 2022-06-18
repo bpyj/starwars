@@ -3,6 +3,7 @@ import {Component} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import './App.css';
 
 const urlList = [];
 for(let i=1; i<10; i++){
@@ -44,7 +45,8 @@ onSearchChange = (e) => {
 		<h1>Loading</h1></div>:
 		(			
 			<div className = 'tc'>
-			<h1 >STAR "Robo" WARS</h1>
+			<h2 >Star Wars Multiverse Chapter XXXV:</h2>
+			<h1 class="title">Star "Robo" Wars</h1>
 			<SearchBox searchChange = {this.onSearchChange}/> 
 			<Scroll>
 			<CardList characters = {filteredRobots}/>
